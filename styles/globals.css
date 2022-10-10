@@ -1,26 +1,23 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter-Black';
+  src: url('../public/fonts/Inter-Black.ttf');
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('../public/fonts/Rubik-Bold.ttf');
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Rubik-Light';
+  src: url('../public/fonts/Rubik-Light.ttf');
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: url('../public/fonts/Rubik-Regular.ttf');
 }
