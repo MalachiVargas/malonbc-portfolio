@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import headshot from '../public/images/headshot.jpg'
 export const Hero = () => {
   return (
     <div
       id="home"
-      className="mx-10 mt-10 mb-0 lg:mb-10 pt-14 pb-5 lg:pb-14 px-20 grid grid-cols-[repeat(auto-fit,_minmax(min(515px,_100%),_1fr))]"
+      className="mx-10 mt-0 sm:mt-10 mb-0 lg:mb-10 pt-0 sm:pt-10 pb-5 lg:pb-14 px-20 grid grid-cols-[repeat(auto-fit,_minmax(min(515px,_100%),_1fr))]"
     >
       <div className="flex justify-self-center xl:justify-self-end mr:0 lg:mr-20 relative">
         <div className="w-[300px] h-[460px] sm:w-[420px] sm:h-[660px] relative">
@@ -24,7 +25,7 @@ export const Hero = () => {
         </div>
       </div>
       <div className="flex flex-col justify-self-center xl:justify-self-start justify-center items-center xl:items-start max-w-[780px] mt-0 sm:mt-[50px] xl:mt-0">
-        <div className="py-[30px]">
+        <div className="pt-[10px] md:pt-[30px] pb-[30px]">
           <h1 className="font-rubikBold text-black text-[40px] sm:text-[56px] py-[10px]">
             Hi, I'm Malachi and I'm a
           </h1>
@@ -45,7 +46,7 @@ export const Hero = () => {
             Contact Me
           </button>
           <button className="font-rubikLight p-[9px] xs:p-[16px] px-[25px] sm:px-[45px] rounded-[8px] outline-none border border-black bg-white">
-            Check my work
+            <Link href="#Work">Check my work</Link>
           </button>
         </div>
       </div>

@@ -8,7 +8,7 @@ import { brandLinks, navLinks } from '../constants'
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
-    <nav className="my-10 mx-10 flex items-center justify-between">
+    <nav className="mt-10 mb-5 md:mb-10 mx-10 flex items-center justify-between">
       <div className="flex gap-2 text-[31px] tracking-widest">
         <p className="font-interBlack">MAL</p>
         <p className="font-interBlack">ON</p>

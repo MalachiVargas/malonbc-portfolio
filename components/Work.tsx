@@ -40,7 +40,7 @@ export const Work = () => {
       })
 
   return (
-    <main className="grid grid-cols-1 justify-items-center">
+    <main id="Work" className="grid grid-cols-1 justify-items-center">
       <h1 className="font-rubikBold mt-0 xl:mt-[50px] p-2 text-black text-[50px] sm:text-[64px]">
         Work
       </h1>
