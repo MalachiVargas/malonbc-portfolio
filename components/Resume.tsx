@@ -41,7 +41,7 @@ export const Resume = () => {
           January 2022 - July 2022
         </p>
       </div>
-      <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[340px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
+      <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[280px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
         <li>
           Built relationships with games and guilds across the Web3 ecosystem.
           Metaguild, Qu3st, Mithraeum, and CastleDAO are amongst the many
@@ -74,7 +74,7 @@ export const Resume = () => {
           April 2018 - May 2019
         </p>
       </div>
-      <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[340px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
+      <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[280px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
         <li>
           Provided service for 10,000+ small business customers at the National
           Business Banking Center.
@@ -92,8 +92,8 @@ export const Resume = () => {
       <h1 className="font-rubikBold text-center text-white bg-black text-[50px] sm:text-[60px] leading-[.68] inline-block tracking-wide mt-[40px] max-w-[287px] sm:max-w-[100%]">
         Skills and Tools
       </h1>
-      <div className="flex gap-[30px] sm:gap-[150px] md:gap-[200px] text-center">
-        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular text-md px-1 leading-[2.4]">
+      <div className="flex gap-[10px] sm:gap-[150px] md:gap-[200px] text-justify text-[13px] sm:text-[16px] sm:text-center">
+        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular px-1 leading-[2.4]">
           <li>React</li>
           <li>NextJS</li>
           <li>Typescript</li>
@@ -102,7 +102,7 @@ export const Resume = () => {
           <li>SpringBoot</li>
           <li>Javascript</li>
         </ul>
-        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular text-md px-1 leading-[2.4]">
+        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular px-1 leading-[2.4]">
           <li>Android Studio</li>
           <li>Figma</li>
           <li>HTML/CSS</li>
@@ -111,7 +111,7 @@ export const Resume = () => {
           <li>Github/Gitlab</li>
           <li>REST API</li>
         </ul>
-        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular text-md px-1 leading-[2.4]">
+        <ul className="mt-[40px] flex flex-col gap-2 font-rubikRegular px-1 leading-[2.4]">
           <li>GraphQL</li>
           <li>Solidity</li>
           <li>Redux Toolkit</li>

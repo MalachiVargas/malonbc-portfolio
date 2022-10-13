@@ -1,3 +1,4 @@
+import { projects, skillsQuantified } from './../data/index'
 import {
   faGithubSquare,
   faTwitch,
@@ -8,35 +9,43 @@ import {
 export const skillFilters = [
   {
     id: 'all',
-    title: 'All'
+    title: 'All',
+    count: projects.length
   },
   {
     id: 'react',
-    title: 'React'
+    title: 'React',
+    count: skillsQuantified.React || 0
   },
   {
     id: 'nextjs',
-    title: 'NextJS'
+    title: 'NextJS',
+    count: skillsQuantified.NextJS || 0
   },
   {
     id: 'tailwindcss',
-    title: 'TailwindCSS'
+    title: 'TailwindCSS',
+    count: skillsQuantified.TailwindCSS || 0
   },
   {
     id: 'typescript',
-    title: 'Typescript'
+    title: 'Typescript',
+    count: skillsQuantified.Typescript || 0
   },
   {
     id: 'graphql',
-    title: 'GraphQL'
+    title: 'GraphQL',
+    count: skillsQuantified.GraphQL || 0
   },
   {
     id: 'polygon',
-    title: 'Polygon'
+    title: 'Polygon',
+    count: skillsQuantified.Polygon || 0
   },
   {
     id: 'mysql',
-    title: 'MySQL'
+    title: 'MySQL',
+    count: skillsQuantified.MySQL || 0
   }
 ]
 

@@ -5,7 +5,6 @@ import _ from 'lodash'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import { faEye } from '@fortawesome/free-regular-svg-icons'
 
@@ -61,7 +60,7 @@ export const Work = () => {
             } rounded-[22px] outline-none font-rubikLight text-[14px] sm:text-[16px] px-[20px] py-[4px] sm:px-[30px] sm:py-[7px]`}
             onClick={handleFilterClick}
           >
-            {skill.title}
+            {skill.title} {`(${skill.count})`}
           </button>
         ))}
       </div>
@@ -114,10 +113,10 @@ export const Work = () => {
                   <Link href={project.repositoryLink}>
                     <div className="flex text-black gap-2 items-center">
                       <FontAwesomeIcon
-                        icon={faGithub}
+                        icon={project.repositoryIcon}
                         className="w-[15px] h-[15px] "
                       />
-                      <p>Github repo</p>
+                      <p>{project.repository} repo</p>
                     </div>
                   </Link>
                 </button>
