@@ -43,7 +43,7 @@ export const Hero = () => {
         </p>
         <div className="flex gap-10 mt-10 mb-0 xl:mb-[105px] text-sm sm:text-xl">
           <button className="px-[25px] sm:px-[45px] font-rubikBold rounded-[8px] outline-none bg-black text-white">
-            Contact Me
+            <Link href="#Contact">Contact me</Link>
           </button>
           <button className="font-rubikLight p-[9px] xs:p-[16px] px-[25px] sm:px-[45px] rounded-[8px] outline-none border border-black bg-white">
             <Link href="#Work">Check my work</Link>

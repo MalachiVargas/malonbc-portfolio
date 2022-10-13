@@ -40,7 +40,7 @@ export const Work = () => {
       })
 
   return (
-    <main id="Work" className="grid grid-cols-1 justify-items-center">
+    <div id="Work" className="grid grid-cols-1 justify-items-center">
       <h1 className="font-rubikBold mt-0 xl:mt-[50px] p-2 text-black text-[50px] sm:text-[64px]">
         Work
       </h1>
@@ -58,7 +58,7 @@ export const Work = () => {
               clicked.includes(skill.id)
                 ? 'bg-black text-white'
                 : 'bg-[#EBEBEB] text-black'
-            } rounded-[22px] outline-none text-rubikLight px-[30px] py-[7px]`}
+            } rounded-[22px] outline-none font-rubikLight text-[14px] sm:text-[16px] px-[20px] py-[4px] sm:px-[30px] sm:py-[7px]`}
             onClick={handleFilterClick}
           >
             {skill.title}
@@ -126,6 +126,6 @@ export const Work = () => {
           </div>
         ))}
       </div>
-    </main>
+    </div>
   )
 }
