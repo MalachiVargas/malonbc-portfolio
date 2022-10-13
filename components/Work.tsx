@@ -64,7 +64,7 @@ export const Work = () => {
           </button>
         ))}
       </div>
-      <div className="mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-[30px] gap-[40px]">
+      <div className="mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-[30px] gap-[40px] z-[10]">
         {filteredData.map((project) => (
           <div key={project.id} className="flex flex-col">
             <div className="w-[320px] h-[240px] relative overflow-hidden rounded-lg border-5 border-gray-100">
