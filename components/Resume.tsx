@@ -5,7 +5,10 @@ import React from 'react'
 
 export const Resume = () => {
   return (
-    <div className="grid grid-cols-1 justify-items-center mt-[40px]">
+    <div
+      id="Resume"
+      className="grid grid-cols-1 justify-items-center mt-[40px]"
+    >
       <h1 className="font-rubikBold mt-0 xl:mt-[46px] p-2 text-black text-[46px] sm:text-[58px] relative z-[10]">
         Resume
       </h1>
