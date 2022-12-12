@@ -33,14 +33,14 @@ export const skillFilters = [
     count: skillsQuantified.Typescript || 0
   },
   {
-    id: 'graphql',
-    title: 'GraphQL',
-    count: skillsQuantified.GraphQL || 0
+    id: 'java',
+    title: 'Java',
+    count: skillsQuantified.Java || 0
   },
   {
-    id: 'polygon',
-    title: 'Polygon',
-    count: skillsQuantified.Polygon || 0
+    id: 'springboot',
+    title: 'SpringBoot',
+    count: skillsQuantified.SpringBoot || 0
   },
   {
     id: 'mysql',

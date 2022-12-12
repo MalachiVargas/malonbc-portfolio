@@ -26,6 +26,48 @@ export const projects = [
     repositoryIcon: faGitlab,
     repositoryLink: 'https://gitlab.com/MalachiVargas/my-modern-ui-ux-site',
     liveSiteLink: 'https://my-modern-ui-ux-site.vercel.app/'
+  },
+  {
+    id: 'twitter-sb',
+    image: '/twitter-sb.svg',
+    alt: 'twitter-sb',
+    title: 'My Twitter Clone w/ Spring Boot',
+    skills: [
+      'React',
+      'NextJS',
+      'Typescript',
+      'TailwindCSS',
+      'SpringBoot',
+      'MySQL',
+      'Java'
+    ],
+    description:
+      "A twitter clone displaying what I've learned about using NextAuth and twitter api to Sign-In, and Spring Boot/MySQL for the backend.",
+    repository: 'Github',
+    repositoryIcon: faGithub,
+    repositoryLink: 'https://github.com/MalachiVargas/fibber-backend-service',
+    liveSiteLink: 'https://my-fibber-clone.vercel.app/'
+  },
+  {
+    id: 'facebook-clone',
+    image: '/fb-clone.svg',
+    alt: 'fb-clone',
+    title: 'My Facebook Clone',
+    skills: [
+      'React',
+      'NextJS',
+      'Typescript',
+      'TailwindCSS',
+      'Java',
+      'SpringBoot',
+      'MySQL'
+    ],
+    description:
+      'A Facebook clone build with Java, Spring Boot/MySQL for the backend. Displays authentication magagement using NextAuth and Facebook API.',
+    repository: 'Github',
+    repositoryIcon: faGithub,
+    repositoryLink: 'https://github.com/MalachiVargas/facebook-clone-service/',
+    liveSiteLink: 'https://headnovel-springboot-clone.vercel.app/'
   }
 ]
 

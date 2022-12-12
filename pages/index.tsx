@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>MAL ON BC</title>
         <meta
           name="Malonbc's Portfolio"
-          content="I'm a full stack web 3 developer working! You can find my projects here where I work on sites built with tools like Solidity, GraphQL, ThreeJS and NextJS."
+          content="I'm a full stack web 3 developer working! You can find my projects here where I work on sites built with tools like Solidity, Spring Boot, Java, ThreeJS and NextJS."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
