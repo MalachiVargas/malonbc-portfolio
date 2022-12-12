@@ -37,9 +37,10 @@ export const Hero = () => {
         <p className="text-[18px] sm:text-[20px] font-rubikLight max-w-[690px]">
           Check out the sites I've built and the technology I have learned along
           the way. My primary tech stack is React, Typescript, NextJS,
-          TailwindCSS, GraphQL, and Planetscale. I am highly interested in
-          reputation management in Web3 Products. A fun example of this concept
-          are achievement badges rewarded for blockchain activity.
+          TailwindCSS, Java, MySQL, and Spring Boot. I am highly interested in
+          building web applications for emerging blockchain technologies like
+          the Polygon Network, AI technologies like GPT-4, and BCI technologies
+          like Neuralink.
         </p>
         <div className="flex gap-10 mt-10 mb-0 xl:mb-[105px] text-sm sm:text-xl">
           <button className="px-[25px] sm:px-[45px] font-rubikBold rounded-[8px] outline-none bg-black text-white">
