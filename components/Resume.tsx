@@ -39,7 +39,7 @@ export const Resume = () => {
         <h3 className="font-rubikBold text-sm mt-2 px-1">Product Manager</h3>
         <p className="font-rubikRegular text-md mt-2 px-1">Dequest, Remote</p>
         <p className="font-rubikLight text-sm mt-2 px-1">
-          January 2022 - July 2022
+          January 2022 - August 2022
         </p>
       </div>
       <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[280px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
