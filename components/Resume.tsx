@@ -36,9 +36,7 @@ export const Resume = () => {
         Work Experience
       </h1>
       <div className="text-center max-w-[200px] mt-[20px]">
-        <h3 className="font-rubikBold text-sm mt-2 px-1">
-          Head of Partnerships
-        </h3>
+        <h3 className="font-rubikBold text-sm mt-2 px-1">Product Manager</h3>
         <p className="font-rubikRegular text-md mt-2 px-1">Dequest, Remote</p>
         <p className="font-rubikLight text-sm mt-2 px-1">
           January 2022 - July 2022
