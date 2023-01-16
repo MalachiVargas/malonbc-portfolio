@@ -47,20 +47,18 @@ export const Resume = () => {
       <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[280px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
         <li>
           Built relationships with games and guilds across the Web3 ecosystem.
-          Metaguild, Qu3st, Mithraeum, and CastleDAO are amongst the many
-          partnerships.
         </li>
         <li>
-          Developed strategies for DeQuest to reach out to games/guilds to build
-          their quests and rewards.
+          Developed strategies for integrating DeQuest with popular Web3
+          communities.
         </li>
         <li>
-          Researched and produced reports on the best games/protocols for
-          partnerships with details on integration.
+          Researched and produced presentations on product user flow and
+          implementation.
         </li>
         <li>
-          Set up communications opportunities with leading Web3 gaming content
-          creators on Twitter, Twitch, and YT.
+          Planned functional requirements for an API achievement system for Web3
+          partners.
         </li>
         <li>
           Worked closely with the COO and CEO in dealing directly with all
@@ -132,7 +130,7 @@ export const Resume = () => {
           <FontAwesomeIcon icon={faDownload} className="w-[15px] h-[15px]" />
           <a
             download="malachi-vargas-resume-fall-2022"
-            href="/resume-fall-2022.pdf"
+            href="/resume-winter-2023"
           >
             Download ~3 MB
           </a>

@@ -39,7 +39,7 @@ export const Hero = () => {
           the way. My primary tech stack is React, Typescript, NextJS,
           TailwindCSS, Java, MySQL, and Spring Boot. I am highly interested in
           building web applications for emerging blockchain technologies like
-          the Polygon Network, AI technologies like GPT-4, and BCI technologies
+          the Polygon Network, AI technologies like GPT-3, and BCI technologies
           like Neuralink.
         </p>
         <div className="flex gap-10 mt-10 mb-0 xl:mb-[105px] text-sm sm:text-xl">
