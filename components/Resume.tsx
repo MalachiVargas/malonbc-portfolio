@@ -46,23 +46,36 @@ export const Resume = () => {
       </div>
       <ul className="list-disc mt-[30px] flex flex-col gap-2 font-rubikLight text-justify text-sm px-1 max-w-[280px] sm:max-w-[610px] md:max-w-[820px] leading-[1.6]">
         <li>
-          Built relationships with games and guilds across the Web3 ecosystem.
+          Identified key opportunities for improvements to the Web3 gaming
+          ecosystem by gathering data and feedback from customers and other
+          departments, such as Data, Engineering, Design, Sales, Support, and
+          Partner Management.
         </li>
         <li>
-          Developed strategies for integrating DeQuest with popular Web3
-          communities.
+          Created detailed Product Requirements Documents (PRD) that clearly
+          described improvements to front-end and back-end applications,
+          including step-by-step workflows, mock-ups/prototypes, and other
+          acceptance criteria.
         </li>
         <li>
-          Researched and produced presentations on product user flow and
-          implementation.
+          Outlined potential new strategic initiatives or products in a slide
+          deck and written narrative format.
         </li>
         <li>
-          Planned functional requirements for an API achievement system for Web3
-          partners.
+          Prioritized and ensured product enhancements met customer needs and
+          were correctly prioritized across the sprint-to-sprint Engineering
+          backlog and a quarterly roadmap.
         </li>
         <li>
-          Worked closely with the COO and CEO in dealing directly with all
-          partners.
+          Collaborated with technology teams to address questions and challenges
+          during development and gathered data and customer feedback to validate
+          success and determine if further iteration was required.
+        </li>
+        <li>
+          Coordinated with departments to ensure that application changes were
+          correctly marketed and supported, and provided training to Sales,
+          Partner Management, and Support teams so they knew how to sell or
+          support new features and products.
         </li>
       </ul>
 
